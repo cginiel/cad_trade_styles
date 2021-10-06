@@ -1,0 +1,72 @@
+@font-face {
+    font-display:fallback;font-family: "Louis";
+    font-style: italic;
+    font-weight: 700;
+    src: url("https://storage.googleapis.com/tmp-bucket-12/chevy/louis-bolditalic-webfont.woff2") format("woff2"),url("https://storage.googleapis.com/tmp-bucket-12/chevy/louis-bolditalic-webfont.woff") format("woff")
+  }
+  
+  @font-face {
+    font-display:fallback;font-family: "Louis";
+    font-style: normal;
+    font-weight: 700;
+    src: url("https://storage.googleapis.com/tmp-bucket-12/chevy/louis-bold-webfont.woff2") format("woff2"),url("https://storage.googleapis.com/tmp-bucket-12/chevy/louis-bold-webfont.woff") format("woff")
+  }
+  
+  @font-face {
+    font-display:fallback;font-family: "Louis";
+    font-style: italic;
+    font-weight: 400;
+    src: url("https://storage.googleapis.com/tmp-bucket-12/chevy/louis-italic-webfont.woff2") format("woff2"),url("https://storage.googleapis.com/tmp-bucket-12/chevy/louis-italic-webfont.woff") format("woff")
+  }
+  
+  @font-face {
+    font-display:fallback;font-family: "Louis";
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://storage.googleapis.com/tmp-bucket-12/chevy/louis-regular-webfont.woff2") format("woff2"),url("https://storage.googleapis.com/tmp-bucket-12/chevy/louis-regular-webfont.woff") format("woff")
+  }
+  
+  a {
+      color: #cd9834!important;
+  }
+  button.btn-default, button.cd-btn {
+      font-family: Roboto!important;
+      font-weight: 700;
+      background: #E6E6E6!important;
+      border: 2px solid #cd9834!important;
+      color: #262626!important;
+  }
+  button.btn-default:hover, button.cd-btn:hover {
+      font-family: Roboto!important;
+      font-weight: 700;
+      background: #cd9834!important;
+      border: 2px solid #cd9834!important;
+      color: #262626!important;
+  }
+  button.btn-light-dark, button.btn-light-dark:hover {
+      font-family: Roboto!important;
+  }
+  
+  div.alert-success {
+      font-family: Roboto!important;
+      background: #E6E6E6!important;
+      color: #262626!important;
+  }
+  
+  div.cd-menu-steps {
+      font-family: Louis!important;
+  }
+  
+  h2.cd2-title-0, span.cd2-title-1, h1 small.font-weight-light, span.trade-describe-title, span.trade-describe-caption, .modal-title {
+      font-family: Louis!important;
+      font-weight: 700;
+  }
+  
+  h3.cd2-title-0 {
+      font-family: Louis!important;
+      font-weight: 700;
+  }
+  
+  p.cd2-description-0, .col-12, .modal-body, p {
+      font-family: Roboto!important;
+  }
